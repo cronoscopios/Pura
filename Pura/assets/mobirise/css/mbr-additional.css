@@ -1,0 +1,191 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);*/
+
+
+@font-face {
+    font-family: MarcaFont;
+    src: url('font/voodoo.ttf');
+         
+}
+
+@font-face {
+    font-family: EsenciaFont;
+    src: url('font/BebasNeue Bold.otf'),
+        url('font/BebasNeue Book.otf'),
+        url('font/BebasNeue Light.otf'),
+        url('font/BebasNeue Regular.otf'),
+        url('font/BebasNeue Thin.otf');
+}
+
+@font-face {
+    font-family: EsloganFont;
+    src: url('font/MuseoSans-100.otf'),
+         url('font/MuseoSans-100Italic.otf'),
+         url('font/MuseoSans-300.otf'),
+         url('font/MuseoSans-300Italic.otf'),
+         url('font/MuseoSans-500.otf'),
+         url('font/MuseoSans-500Italic.otf'),
+         url('font/MuseoSans-700.otf'),
+         url('font/MuseoSans-700Italic.otf'),
+         url('font/MuseoSans-900.otf'),
+         url('font/MuseoSans-900Italic.otf');
+    
+}
+
+
+
+
+#ext_menu-3 {
+.mbr-brand__name {
+	font-size: 16px;
+}
+&.mbr-navbar--stuck .mbr-navbar__section {
+	background: #2c2c2c;
+}
+.mbr-navbar__section {
+}
+.mbr-navbar__hamburger {
+	color: #ffffff;
+}
+.navbar-toggler {
+	color: #ffffff;
+}
+.close-icon::before, .close-icon::after {
+	background-color: #ffffff;
+}
+.link, .dropdown-item {
+	color: #ffffff;
+}
+.link {
+	font-size: 0.75rem;
+}
+.dropdown-item, .nav-dropdown-sm .link {
+	font-size: 0.812rem;
+}
+.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-menu {
+	background: #0e0e0e;
+}
+.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {
+	background: #202020!important;
+}
+.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded="true"], .nav-dropdown-sm .dropdown-menu {
+	background: #282828;
+}
+.bg-color.transparent .link {
+	color: #ffffff;
+	transition: none;
+}
+.bg-color.transparent.opened .link {
+	transition: color .2s ease-in-out;
+}
+.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-item[aria-expanded="true"] {
+	color: #000000!important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+#menu-12 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-12.mbr-navbar--stuck .mbr-navbar__section {
+  background: transparent;
+}
+#menu-12 .mbr-navbar__hamburger {
+  color: #41a85f;
+}
+#header1-4 H1 {
+  text-align: center;
+  font-weight: 100;
+  font-family: 'MarcaFont', sans-serif;
+}
+#msg-box3-6 .mbr-header .mbr-header__text {
+  text-align: center;
+  font-family: EsenciaFont, sans-serif;
+  font-size: 60px;
+}
+#msg-box3-6 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-6 .mbr-article P {
+  font-family: EsloganFont, sans-serif;
+  font-size: 25px;
+  color: #9c9c9c;
+  text-align: center;
+    
+}
+#footer1-7 P {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#header3-2 H3 {
+  text-align: center;
+  font-family: EsenciaFont, sans-serif;
+  color: #9c9c9c;
+  font-size: 30px;
+}
+#pricing-table1-9 UL {
+  font-size: 20px;
+  text-align: right;
+}
+#pricing-table1-9 SPAN {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+#pricing-table1-9 DIV {
+  font-size: 20px;
+  text-align: center;
+  font-family: EsloganFont, sans-serif;
+}
+#pricing-table1-9 P {
+  text-align: center;
+  font-size: 20px;
+}
+#pricing-table1-9 SUP {
+  font-size: 20px;
+  text-align: left;
+}
+#pricing-table1-9 .mbr-plan__details P {
+  text-align: center;
+  color: #9c9c9c;
+}
+#pricing-table1-9 .mbr-plan__details UL {
+  text-align: center;
+  color: #9c9c9c;
+}
+#social-buttons2-15 .mbr-header__text {
+  text-align: left;
+  font-family: EsloganFont, sans-serif;
+  color: #9c9c9c;
+}
+#social-buttons2-15 .mbr-header__text SPAN {
+  text-align: right;
+}
+#contacts1-4 STRONG {
+  text-align: left;
+}
+#contacts1-4 P {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: EsenciaFont, sans-serif;
+  text-align: left;
+}
+#contacts1-4 UL {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: EsloganFont, sans-serif;
+  text-align: left;
+}
